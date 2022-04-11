@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title class="title">Giga Pet!</title>
+  <meta name="description" content="A cool thing made with Glitch">
+  <link id="favicon" rel="icon" href="assets/icon.ico" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="script.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Press+Start+2P&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+      <h1 class="header-title">
+        This is your Giga Pet
+      </h1>
+    </header>
+
+
+  <main>
+    <section class="pet-image-container">
+  
+      <img class="pet-image" src="assets/cthulhu.gif">
+    </section>
+    <section class="dashboard">
+      <form>
+        <label>Create pet name: </label>
+        <input type="text" id="petName">
+        <button id="submit" type="button" class="submit-button"> submit</button>
+      </form>
+      <div>Name: <strong><span class="name"></span></strong></div>
+      <div>Weight: <strong><span class="weight"></span> pounds</strong></div>
+      <div>Happiness: <strong><span class="happiness"></span> tail wags (per min)</strong></div>
+      <div>Energy: <strong><span class="energy"></span> (kW h) >:)</strong></div>
+      <div class="button-container">
+        <button id="treat" class="treat-button">
+          Treat
+        </button>
+        <button id="play" class="play-button">
+          Play
+        </button>
+        <button id="exercise" class="exercise-button">
+          Exercise
+        </button>
+
+        <button id="nap" class="nap-button">
+          Nap
+        </button>
+
+      </div>
+      <div>
+        <p class="notification"></p>
+        <p class="weight-conditional"></p>
+        <p class="happiness-conditional"></p>
+        <p class="energy-conditional"></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+    integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=" crossorigin="anonymous"></script>
+</body>
+
+</html>

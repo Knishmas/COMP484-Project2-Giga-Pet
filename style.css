@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'MedievalSharp', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #062C30;
+  color: #5FECAF;
+}
+body {
+  font-family: helvetica, arial, sans-serif;
+}
+div, label, button, .button-container {
+  font-size: x-large;
+}
+footer {
+  padding-top: 25px;
+  border-top: 1px solid black;
+}
+footer a {
+  margin:5px;
+}
+header {
+  border-bottom: 5px solid #28B5B5;
+}
+h1 {
+  font-weight: bold;
+  color: #28B5B5;
+}
+
+li {
+  margin-bottom: 5px;
+}
+main {
+  display:block;
+  height:175px;
+}
+
+p {
+  font-size: x-large;
+  max-width: 600px;
+}
+
+.button-container {
+  margin-top:20px;
+}
+.button-container button {
+  width: 100px;
+  margin-right: 10px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 12px;
+  color: #05595B;
+  border-color: #28B5B5;
+  cursor:pointer;
+  background-image: linear-gradient(to bottom,rgba(5, 89, 91, 1)0%,rgba(40, 181, 181, 0)66%);
+  color: #fafafa;
+}
+.bold {
+  font-weight: bold;
+}
+
+.dashboard {
+  padding:20px;
+}
+.dashboard div {
+  display:block;
+}
+.pet-image {
+  height:150px;
+}
+
+.pet-image-container {
+  padding:10px;
+}
+
+
+.weight-conditional, .happiness-conditional, .energy-conditional{
+  color: red;
+  font-weight: bold;
+}
+
+/* Using ID's to create hover effect instead of putting it into button container for the purpose of highlighting individual buttons instead of them all highlighting. */
+#submit:hover {
+  color: #28B5B5;
+  border-color:#05595B;
+}
+#treat:hover {
+  color: #28B5B5;
+  border-color:#05595B;
+}
+#play:hover {
+  color: #28B5B5;
+  border-color:#05595B;
+}
+#exercise:hover {
+  color: #28B5B5;
+  border-color:#05595B;
+}
+#nap:hover {
+  color: #28B5B5;
+  border-color:#05595B;
+}
